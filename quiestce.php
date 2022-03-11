@@ -48,7 +48,7 @@ h1 {text-align: center;}
 <input type="radio" name="question1" value="Q1Non1" id="Q1Non1" /> <label for="Q1Non1">Non</label><br />
 
 </br>
-<h2 id="Question1">Question 2: Votre personnage a-ti une moustache ?</h2>
+<h2 id="Question1">Question 2: Votre personnage a-t-il une moustache ?</h2>
 <input type="radio" name="question2" value="Q2Oui2" id="Q2Oui2" /> <label for="Q2Oui1">Oui</label><br />
 <input type="radio" name="question2" value="Q2Non2" id="Q2Non2" /> <label for="Q2Non1">Non</label><br />
 
