@@ -38,22 +38,55 @@ h1 {text-align: center;}
 <img src="imagePHP/15.jpg" alt="image15">
 </br>
 
-<!--Questions-->
+<!--Questions/Formulaire , chaque question renvoie un 1 ou un 0-->
 <form method="post" action="quiestce.php">
 
 <fieldset>
     
-<h2 id="Question1">Question 1: Votre personnage porte-il des lunettes ?</h2>
-<input type="radio" name="question1" value="Q1Oui1" id="Q1Oui1" /> <label for="Q1Oui1">Oui</label><br />
-<input type="radio" name="question1" value="Q1Non1" id="Q1Non1" /> <label for="Q1Non1">Non</label><br />
+<h3>Question 1: Votre personnage porte-il des lunettes ?</h3>
+Oui<input type="radio" name="question1" value="1" /> |
+Non<input type="radio" name="question1" value="0" /> 
 
 </br>
-<h2 id="Question1">Question 2: Votre personnage a-t-il une moustache ?</h2>
-<input type="radio" name="question2" value="Q2Oui2" id="Q2Oui2" /> <label for="Q2Oui1">Oui</label><br />
-<input type="radio" name="question2" value="Q2Non2" id="Q2Non2" /> <label for="Q2Non1">Non</label><br />
+<h3>Question 2: Votre personnage a-t-il une moustache ?</h3>
+Oui<input type="radio" name="question2" value="1" /> |
+Non<input type="radio" name="question2" value="0" /> 
+
+</br>
+<h3>Question 3: Votre personnage a-t-il un chapeau ?</h3>
+Oui<input type="radio" name="question3" value="1" /> |
+Non<input type="radio" name="question3" value="0" /> 
+
+</br>
+<h3>Question 4: Votre personnage a-t-il des cheveux ?</h3>
+Oui<input type="radio" name="question4" value="1" /> |
+Non<input type="radio" name="question4" value="0" /> 
+
+</br>
+<h3>Question 5: Votre personnage a-t-il une boucle d'oreille ?</h3>
+Oui<input type="radio" name="question5" value="1" /> |
+Non<input type="radio" name="question5" value="0" /> 
+
+</br>
+<h3>Question 6: Votre personnage a-t-il une barbe ?</h3>
+Oui<input type="radio" name="question6" value="1" /> |
+Non<input type="radio" name="question6" value="0" /> 
+
+</br>
+<h3>Question 7: Votre personnage a-t-il un noeud papillon ?</h3>
+Oui<input type="radio" name="question7" value="1" /> |
+Non<input type="radio" name="question7" value="0" /> 
+
+<br/>
+<input type="submit" value="Envoyer">
+<br/> <br/>
+
+
+<?php
+echo "Vous dite être : <b>" . $_POST['question1']. $_POST['question2'] . $_POST['question3']. $_POST['question4'] . $_POST['question5'] . $_POST['question6']. $_POST['question7']. "</b><br>";
+?>
 
 </fieldset>
-
 
 </body>
 </html>
