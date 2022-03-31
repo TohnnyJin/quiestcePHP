@@ -161,7 +161,8 @@
 
           // Se déclenche après avoir appuyer sur le bouton envoyer, renvoie le personnage que l'utilisateur a choisi
           if ($_POST["envoyer"]) {
-            echo 'Vous avez choisi : <img src=http://btsio.org/2022/jint/quiestce/images/' . $personnage . '.jpg alt=personnage>';
+            echo 'Vous avez choisi';
+            echo '<img src=http://btsio.org/2022/jint/quiestce/images/' . $personnage . '.jpg alt=personnage>';
           }
           ?>
         </td>
